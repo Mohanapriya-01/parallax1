@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+body,html
+{
+height: 100%;
+}
+.navbar 
+{
+	background: linear-gradient(45deg, #eeaeca 0%, #94bbe9 100%);
+}
+.navbar-brand 
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000 !important;
+}
+.nav-link 
+{
+    color: #000 !important;
+}
+.nav-link:hover 
+{
+    color: #ddd !important;
+}
+.dropdown-menu 
+{
+    background-color: #f8f9fa;
+}
+.form-control 
+{
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+}
+.parallax
+{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.parallax-1
+{
+    background-image: url('grocery.webp');
+}
+.parallax-2
+{
+    background-image: url('3.jpg'); /* Replace with your image URL */
+}
+.parallax-3
+{
+    background-image: url('lolliipop.jpg');
+}
+
+
+
+.section-content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Brand</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Services
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="#">Web Design</a></li>
+                        <li><a class="dropdown-item" href="#">SEO</a></li>
+                        <li><a class="dropdown-item" href="#">Marketing</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="portfolioDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Portfolio
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="portfolioDropdown">
+                        <li><a class="dropdown-item" href="#">Projects</a></li>
+                        <li><a class="dropdown-item" href="#">Clients</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex ms-auto">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+         </div>
+    </nav>
+
+    <div class="parallax parallax-1">
+        <div class="section-content">
+            Grocery Store
+        </div>
+    </div>
+
+    <div class="parallax parallax-2">
+        <div class="section-content">
+            Snacks Store
+        </div>
+    </div>
+
+    <div class="parallax parallax-3">
+        <div class="section-content">
+            Candy Store
+        </div>
+    </div>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
